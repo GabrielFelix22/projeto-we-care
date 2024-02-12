@@ -123,3 +123,35 @@ video {
     position: fixed;
     top: 0;
 }
+
+@media screen and (max-width: 768px) {
+    section {
+        width: 100%;
+        height: 100%;        
+    }
+
+    header {
+        display: flex;
+        position: static;
+        align-items: center;
+        margin: 50px 15px;
+    }
+
+    .link-header {
+        font-size: 20px;
+    }
+
+    .logo-image {
+        display: block;
+        position: static;
+        width: 70%;
+        height: auto;
+    }
+
+    section {
+        display: block;
+        position: fixed;
+        margin: 10%;
+        height: auto;
+    }
+}
